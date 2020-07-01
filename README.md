@@ -1,9 +1,9 @@
 # 8-Bit-CPU-EERPOM-Programmer
-This is a an aduinro code to program a breadboard EEPROM for 8-Bit CPU based on Ben Easter CPU 
+This is an Arduino code to program a breadboard EEPROM for 8-Bit CPU based on Ben Easter CPU 
 
-Features incude:
-* Reduced compoments in compare with Ben Eater's desgin
-*  356 bit of S-Ram
+Features include:
+* Reduced components in compare with Ben Eater's design
+*  256 bit of SRAM instead of 64
 * 4 CPU cycles per micro-instruction instead of 6
 
 
