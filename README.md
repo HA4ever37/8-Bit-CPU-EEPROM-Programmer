@@ -1,5 +1,5 @@
 # 8-Bit-CPU-EERPOM-Programmer
-This is an Arduino code to program a breadboard EEPROM for 8-Bit CPU based on Ben Eater CPU (microcode instructions)
+This is an Arduino code to program EEPROMs for a breadboard 8-Bit CPU based on Ben Eater CPU desgin (microcode instructions programmer)
 
 Features include:
 * Reduced components in compare with Ben Eater's design
@@ -10,7 +10,7 @@ Features include:
 
 To program the EEPROM, you will need the following:
 * An Arduino compatible board
-* 2 shift register (e.g. 74hc595)
+* 2 shift registers (e.g. 74hc595)
 * Of course, the EEPROM chips
 
 
