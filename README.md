@@ -1,11 +1,11 @@
 # 8-Bit-CPU-EEPROM-Programmer
-This is an Arduino code to program EEPROMs (microcode instructions programmer) for a breadboard 8-Bit CPU inspired by Ben Eater's CPU desgin https://eater.net/8bit
+This is an Arduino code to program EEPROMs (microcode instructions programmer) for a breadboard 8-Bit CPU inspired by Ben Eater's CPU design https://eater.net/8bit
 
 CPU Features include:
 * Reduced components in compare with Ben Eater's design
-* 512 bytes of SRAM (256 addresses producing 2 byes of data per address) instead of 16 bytes (16 addresses and 1 byte of data)
-* 4 CPU cycles per micro-instruction instead of 6
-* Speated ram buses for instructions and data  (8 bits for instructions + 8 bits for data)
+* 512 bytes of SRAM (256 addresses producing 2 bytes of data per address) instead of 16 bytes (16 addresses and 1 byte of data)
+* 4 CPU cycles per instruction instead of 6
+* Speared ram buses for instructions and data  (8 bits for instructions + 8 bits for data)
 
 
 To program the EEPROM, you will need the following:
