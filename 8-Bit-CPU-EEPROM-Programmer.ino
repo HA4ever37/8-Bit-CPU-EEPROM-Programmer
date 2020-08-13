@@ -68,8 +68,6 @@ void setAddress(int address, bool outputEnable) {
   digitalWrite(SHIFT_LATCH, HIGH);
   digitalWrite(SHIFT_LATCH, LOW);
 }
-
-
 /*
    Read a byte from the EEPROM at the specified address.
 */
@@ -86,8 +84,6 @@ byte readEEPROM(int address) {
 
   return data;
 }
-
-
 /*
    Write a byte to the EEPROM at the specified address.
 */
@@ -108,9 +104,8 @@ void writeEEPROM(int address, byte data) {
   digitalWrite(WRITE_EN, HIGH);
   delay(10);
 }
-
 /*
-   Read the contents of the EEPROM and print them to the serial monitor.
+   Read the contents (the first 256 bytes)of the EEPROM and print them to the serial monitor.
 */
 void printContents() {
   for (int base = 0; base <= 255; base += 16) {
@@ -128,9 +123,7 @@ void printContents() {
   }
 }
 
-
 void setup() {
-  // put your setup code here, to run once:
   pinMode(SHIFT_DATA, OUTPUT);
   pinMode(SHIFT_CLK, OUTPUT);
   pinMode(SHIFT_LATCH, OUTPUT);
@@ -159,14 +152,12 @@ void setup() {
       Serial.print(".");
     }
   }
-
   Serial.println(" done");
 
   // Read and print out the contents of the EERPROM
   Serial.println("Reading EEPROM");
   printContents();
 }
-
 
 void loop() {
   // put your main code here, to run repeatedly:
