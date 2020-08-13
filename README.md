@@ -5,7 +5,7 @@ Features include:
 * Reduced components in compare with Ben Eater's design
 * 256 bit of SRAM instead of 64
 * 4 CPU cycles per micro-instruction instead of 6
-* Different ram buses for instructions and data
+* Speated ram buses for instructions and data  (8 bits for instructions + 8 bits for data)
 
 
 To program the EEPROM, you will need the following:
