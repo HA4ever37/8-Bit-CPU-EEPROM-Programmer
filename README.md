@@ -13,7 +13,7 @@ To program the EEPROM, you will need the following:
 * 2 shift registers (e.g. 74hc595)
 * Of course, the EEPROM chips
 
-| Clock Module| Program Counter| Input Module | Ram Module | Logic Control | Registers (A&B) | ALU | Display Module | Input Module |
+| Clock Module| Program Counter| Input Module | Ram Module | Logic Control | Registers Module (A&B) | ALU Module | Display Module | Input Module |
 |------------|------------|-----|-------------|------------|----|-----------|------------|-----|
 | 2x 555 Timer |2x Binary Counter (SN74HC161N) | 4x  2to1 data selector (SN74HC157N) | 4x 4K-RAM (CY7C168A) | Binary Counter (SN74HC161N) | Quad AND (SN74HC08N) |  2x Binary Adder (CD74HC283E) | 555 Timer | Octal D-Type Flip-Flop (CD74HC273E) |
 | Tactile Button | 8x Led | 3-State Transceiver (SN74HC245N) | 3-State Transceiver (SN74HC245N) | 2x EEPROM (AT28C64B-15PU) | 2x  3-State Transceiver (SN74HC245N) | 2x Quad XOR (SN74HC86N) | Binary Counter (SN74HC161N) | Hex Inverter (SN74HC04) |
